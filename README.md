@@ -21,6 +21,13 @@ Developed by: Tejusve Kabeer.F
 RegisterNumber: 22002543
 */
 ```
+def gcd():
+    import math
+    a=int(input())
+    b=int(input())
+    c=math.gcd(a,b)
+    print("GCD of two numbers is:",c)
+
 
 ## Output:
 ![gcd of two number](gcd.png)
